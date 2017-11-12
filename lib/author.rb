@@ -8,7 +8,7 @@ class Author
     @posts = []
   end
 
-  def author_name
+  def self.author_name
     if @name == nil
       nil
     else
