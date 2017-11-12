@@ -8,6 +8,14 @@ class Author
     @posts = []
   end
 
+  def author_name
+    if @name == nil
+      nil
+    else
+      @name
+    end
+  end
+
   def add_post(post)
     @posts << post
     post.author = self
