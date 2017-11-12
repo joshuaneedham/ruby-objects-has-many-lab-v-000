@@ -9,9 +9,7 @@ class Author
   end
 
   def author_name(post)
-    if post != name
-      nil
-    end
+
   end
 
   def add_post(post)
