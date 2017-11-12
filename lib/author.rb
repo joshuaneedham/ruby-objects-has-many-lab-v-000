@@ -8,10 +8,6 @@ class Author
     @posts = []
   end
 
-  def author_name(post)
-
-  end
-
   def add_post(post)
     self.posts << post
     post.author = self
