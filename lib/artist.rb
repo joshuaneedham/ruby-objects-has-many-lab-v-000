@@ -22,6 +22,6 @@ class Artist
   end
 
   def self.song_count
-    @songs.count
+    @songs.count { |song| song == 0}
   end
 end
