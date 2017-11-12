@@ -3,7 +3,6 @@ class Song
 
   def initialize
     @song = song
-    songs = []
   end
 
 end
