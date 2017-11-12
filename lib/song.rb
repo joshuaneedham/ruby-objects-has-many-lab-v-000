@@ -5,5 +5,5 @@ class Song
     @song = song
     songs = []
   end
-    
+
 end
